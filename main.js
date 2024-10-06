@@ -1,4 +1,4 @@
-const countBE = 21900;
+const countBE = 58;
 const hour = 60;
 const day = 1440;
 const week = 10080;
@@ -18,5 +18,5 @@ if (countBE / week >= 1) {
 	const remainingMinutesTransform = countBE % hour
 	console.log(`${Math.floor(remainigHours)}h ${remainingMinutesTransform}m`)
 } else if (countBE <= 60) {
-	console.log(`less than an hour`)
+	console.log(`0h ${countBE}m`)
 }
